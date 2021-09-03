@@ -1,0 +1,13 @@
+def random_select(array, n)
+i=0
+array_output = []  
+while i < n
+array_output << rand(array.max)
+i = i + 1
+end
+array_output
+puts i
+end
+
+random_select([1, 2, 3, 4, 5], 2)
+
