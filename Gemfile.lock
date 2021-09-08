@@ -73,6 +73,7 @@ GEM
       activesupport
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+    debug (0.2.0)
     erubi (1.10.0)
     ffi (1.15.3)
     globalid (0.5.1)
@@ -158,6 +159,7 @@ DEPENDENCIES
   active_model_serializers (~> 0.10.12)
   bootsnap (>= 1.4.4)
   byebug
+  debug
   listen (~> 3.3)
   puma (~> 5.0)
   rails (~> 6.1.4)
